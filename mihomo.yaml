@@ -31,23 +31,23 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, alterId: 0, cipher: auto, tls: true, servername: "angouri.angouri.dpdns.org", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "angouri.angouri.dpdns.org"}}, udp: false}
   - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, alterId: 0, cipher: auto, tls: true, servername: "angouri.angouri.dpdns.org", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "angouri.angouri.dpdns.org"}}, udp: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]", server: angouri.angouri.dpdns.org, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.180.105:2087 [VLESS]", server: 104.17.180.105, port: 2087, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.210.119:2053 [VLESS]", server: 104.17.210.119, port: 2053, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.34.113:443 [VLESS]", server: 104.19.34.113, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.133:443 [VLESS]", server: 91.193.58.133, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.33.31:8443 [VLESS]", server: 162.159.33.31, port: 8443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.33.11:443 [VLESS]", server: 104.19.33.11, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.106:2096 [VLESS]", server: 162.159.38.106, port: 2096, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.160.220:443 [VLESS]", server: 104.17.160.220, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.7.97:2083 [VLESS]", server: 104.26.7.97, port: 2083, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.248.74:2053 [VLESS]", server: 104.16.248.74, port: 2053, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.100.55:443 [VLESS]", server: 104.17.100.55, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.45.204:2053 [VLESS]", server: 162.159.45.204, port: 2053, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.99:2083 [VLESS]", server: 104.18.33.99, port: 2083, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.31.241:2053 [VLESS]", server: 104.17.31.241, port: 2053, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.3.134:443 [VLESS]", server: 172.66.3.134, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.62:443 [VLESS]", server: 8.39.125.62, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: android, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]", server: angouri.angouri.dpdns.org, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.124.46:2053 [VLESS]", server: 104.17.124.46, port: 2053, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.210.118:2083 [VLESS]", server: 104.17.210.118, port: 2083, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.18.114:2087 [VLESS]", server: 104.17.18.114, port: 2087, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.151.254:443 [VLESS]", server: 104.17.151.254, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.172.88:8443 [VLESS]", server: 104.17.172.88, port: 8443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.24:2096 [VLESS]", server: 8.39.125.24, port: 2096, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.146.203:2087 [VLESS]", server: 104.17.146.203, port: 2087, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.26.90:8443 [VLESS]", server: 104.17.26.90, port: 8443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.177.94:8443 [VLESS]", server: 104.17.177.94, port: 8443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.28.12:8443 [VLESS]", server: 104.17.28.12, port: 8443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.252.110:2096 [VLESS]", server: 104.16.252.110, port: 2096, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.129:443 [VLESS]", server: 104.18.33.129, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.18.96:2096 [VLESS]", server: 104.17.18.96, port: 2096, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.9.124:443 [VLESS]", server: 104.26.9.124, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.11:443 [VLESS]", server: 108.162.198.11, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.9.85:443 [VLESS]", server: 104.26.9.85, port: 443, type: vless, uuid: 944d6154-c1a7-46c3-825b-1b95788e85f6, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -59,22 +59,22 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.180.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.210.119:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.34.113:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.133:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.33.31:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.11:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.106:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.160.220:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.97:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.248.74:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.100.55:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.204:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.99:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.241:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.3.134:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.62:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.124.46:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.210.118:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.114:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.254:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.172.88:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.24:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.146.203:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.26.90:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.177.94:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.28.12:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.110:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.129:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.96:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.124:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.11:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.85:443 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -82,44 +82,44 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.180.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.210.119:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.34.113:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.133:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.33.31:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.11:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.106:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.160.220:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.97:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.248.74:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.100.55:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.204:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.99:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.241:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.3.134:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.62:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.124.46:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.210.118:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.114:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.254:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.172.88:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.24:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.146.203:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.26.90:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.177.94:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.28.12:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.110:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.129:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.96:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.124:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.11:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.85:443 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.180.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.210.119:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.34.113:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.133:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.33.31:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.11:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.106:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.160.220:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.97:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.248.74:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.100.55:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.204:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.99:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.241:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.3.134:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.62:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.124.46:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.210.118:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.114:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.254:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.172.88:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.24:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.146.203:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.26.90:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.177.94:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.28.12:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.110:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.129:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.96:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.124:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.11:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.85:443 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -127,22 +127,22 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.180.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.210.119:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.34.113:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.133:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.33.31:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.11:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.106:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.160.220:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.97:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.248.74:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.100.55:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.204:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.99:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.241:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.3.134:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.62:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.124.46:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.210.118:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.114:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.254:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.172.88:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.24:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.146.203:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.26.90:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.177.94:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.28.12:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.110:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.129:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.96:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.124:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.11:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.85:443 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -169,22 +169,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.180.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.210.119:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.34.113:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.133:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.33.31:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.11:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.106:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.160.220:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.97:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.248.74:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.100.55:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.204:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.99:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.241:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.3.134:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.62:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.124.46:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.210.118:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.114:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.254:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.172.88:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.24:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.146.203:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.26.90:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.177.94:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.28.12:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.110:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.129:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.96:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.124:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.11:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.85:443 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -197,22 +197,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.180.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.210.119:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.34.113:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.133:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.33.31:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.11:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.106:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.160.220:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.97:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.248.74:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.100.55:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.45.204:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.99:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.241:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.3.134:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.62:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.124.46:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.210.118:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.114:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.254:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.172.88:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.24:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.146.203:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.26.90:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.177.94:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.28.12:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.110:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.129:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.96:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.124:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.11:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.85:443 [VLESS]
 rules:
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
