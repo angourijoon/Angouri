@@ -82,8 +82,8 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]",
-      "server": "angouri.angouri.dpdns.org",
+      "tag": "سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]",
+      "server": "nova.angour.workers.dev",
       "server_port": 443,
       "uuid": "9eb0467d-f0c6-4f79-8b2d-df8c191a0a98",
       "transport": {
@@ -92,7 +92,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -112,7 +112,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -132,7 +132,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -152,7 +152,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -172,7 +172,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -192,7 +192,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -212,7 +212,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -232,7 +232,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -252,7 +252,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -272,7 +272,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -292,7 +292,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -312,7 +312,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -332,7 +332,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -352,7 +352,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -372,7 +372,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -392,7 +392,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -412,7 +412,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -432,7 +432,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -452,7 +452,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -472,7 +472,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -492,7 +492,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -512,7 +512,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -532,7 +532,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -552,7 +552,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -572,7 +572,207 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org",
+        "server_name": "nova.angour.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]",
+      "server": "162.159.45.221",
+      "server_port": 443,
+      "uuid": "9eb0467d-f0c6-4f79-8b2d-df8c191a0a98",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova.angour.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]",
+      "server": "162.159.45.221",
+      "server_port": 2096,
+      "uuid": "9eb0467d-f0c6-4f79-8b2d-df8c191a0a98",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova.angour.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]",
+      "server": "162.159.45.221",
+      "server_port": 2087,
+      "uuid": "9eb0467d-f0c6-4f79-8b2d-df8c191a0a98",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova.angour.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]",
+      "server": "162.159.45.221",
+      "server_port": 2053,
+      "uuid": "9eb0467d-f0c6-4f79-8b2d-df8c191a0a98",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova.angour.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]",
+      "server": "162.159.45.221",
+      "server_port": 2083,
+      "uuid": "9eb0467d-f0c6-4f79-8b2d-df8c191a0a98",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova.angour.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]",
+      "server": "162.159.45.221",
+      "server_port": 8443,
+      "uuid": "9eb0467d-f0c6-4f79-8b2d-df8c191a0a98",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova.angour.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]",
+      "server": "104.27.0.121",
+      "server_port": 2096,
+      "uuid": "9eb0467d-f0c6-4f79-8b2d-df8c191a0a98",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova.angour.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]",
+      "server": "104.27.0.121",
+      "server_port": 443,
+      "uuid": "9eb0467d-f0c6-4f79-8b2d-df8c191a0a98",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova.angour.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]",
+      "server": "104.27.0.121",
+      "server_port": 2087,
+      "uuid": "9eb0467d-f0c6-4f79-8b2d-df8c191a0a98",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova.angour.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]",
+      "server": "104.27.0.121",
+      "server_port": 8443,
+      "uuid": "9eb0467d-f0c6-4f79-8b2d-df8c191a0a98",
+      "transport": {
+        "type": "grpc",
+        "service_name": "/"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova.angour.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -588,7 +788,7 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "DIRECT",
-        "سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]",
@@ -613,6 +813,16 @@
         "سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -621,7 +831,7 @@
       "type": "urltest",
       "tag": "♻️ 自动选择",
       "outbounds": [
-        "سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]",
@@ -645,7 +855,17 @@
         "سرویس رایگان نوا @irnova_proxy 172.67.184.160:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -655,7 +875,7 @@
       "type": "urltest",
       "tag": "🔯 故障转移",
       "outbounds": [
-        "سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]",
@@ -679,14 +899,24 @@
         "سرویس رایگان نوا @irnova_proxy 172.67.184.160:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]"
       ]
     },
     {
       "type": "urltest",
       "tag": "🔮 负载均衡",
       "outbounds": [
-        "سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]",
@@ -710,7 +940,17 @@
         "سرویس رایگان نوا @irnova_proxy 172.67.184.160:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]"
       ]
     },
     {
@@ -743,7 +983,7 @@
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]",
@@ -768,6 +1008,16 @@
         "سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -782,7 +1032,7 @@
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]",
@@ -807,6 +1057,16 @@
         "سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -816,7 +1076,7 @@
       "tag": "GLOBAL",
       "outbounds": [
         "DIRECT",
-        "سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]",
@@ -841,6 +1101,16 @@
         "سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]",
         "📢 https://t.me/irnova_proxy",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
@@ -861,12 +1131,12 @@
         "type": "ws",
         "path": "/?fake=1",
         "headers": {
-          "Host": "angouri.angouri.dpdns.org"
+          "Host": "nova.angour.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org"
+        "server_name": "nova.angour.workers.dev"
       }
     },
     {
@@ -881,12 +1151,12 @@
         "type": "ws",
         "path": "/?fake=1",
         "headers": {
-          "Host": "angouri.angouri.dpdns.org"
+          "Host": "nova.angour.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "angouri.angouri.dpdns.org"
+        "server_name": "nova.angour.workers.dev"
       }
     }
   ],
@@ -9371,7 +9641,6 @@
           "5.226.179.0/24",
           "5.226.181.0/24",
           "14.102.228.0/23",
-          "23.141.168.0/24",
           "23.145.136.0/24",
           "23.145.152.0/24",
           "23.145.232.0/24",
@@ -9401,7 +9670,6 @@
           "45.142.120.0/24",
           "45.149.12.0/24",
           "45.194.53.0/24",
-          "45.202.113.0/24",
           "45.205.0.0/24",
           "46.202.30.0/24",
           "62.72.166.0/24",
@@ -9436,7 +9704,6 @@
           "89.116.250.0/24",
           "89.117.112.0/24",
           "89.207.18.0/24",
-          "91.124.127.0/24",
           "91.192.106.0/23",
           "91.193.58.0/23",
           "91.199.81.0/24",
@@ -9494,19 +9761,13 @@
           "154.194.12.0/24",
           "154.197.64.0/23",
           "154.197.75.0/24",
-          "154.197.80.0/24",
-          "154.197.88.0/24",
-          "154.197.108.0/24",
-          "154.197.121.0/24",
           "154.198.173.0/24",
           "154.202.89.0/24",
           "154.206.12.0/24",
           "154.211.8.0/24",
           "154.218.15.0/24",
-          "154.219.5.0/24",
           "155.46.167.0/24",
           "155.46.213.0/24",
-          "156.225.72.0/24",
           "156.243.246.0/24",
           "156.252.2.0/23",
           "159.112.235.0/24",
@@ -9543,7 +9804,6 @@
           "185.159.247.0/24",
           "185.162.228.0/22",
           "185.170.166.0/24",
-          "185.176.24.0/24",
           "185.176.26.0/24",
           "185.193.28.0/22",
           "185.207.92.0/24",
@@ -9564,8 +9824,6 @@
           "193.67.144.0/24",
           "193.162.35.0/24",
           "193.227.99.0/24",
-          "193.233.21.0/24",
-          "193.233.132.0/24",
           "194.1.194.0/24",
           "194.26.68.0/24",
           "194.36.49.0/24",
@@ -9626,7 +9884,6 @@
           "209.222.114.0/23",
           "212.239.86.0/24",
           "213.182.199.0/24",
-          "213.219.247.0/24",
           "213.241.198.0/24",
           "216.120.131.0/24",
           "216.120.180.0/23",
@@ -9667,7 +9924,6 @@
           "31.185.108.0/24",
           "37.153.170.0/23",
           "38.96.28.0/23",
-          "42.61.47.0/24",
           "43.228.232.0/23",
           "43.230.112.0/23",
           "43.230.114.0/24",
@@ -9682,15 +9938,18 @@
           "45.192.224.0/24",
           "45.195.153.0/24",
           "45.196.29.0/24",
+          "45.196.168.0/24",
           "45.198.114.0/24",
           "45.198.116.0/24",
           "45.198.139.0/24",
           "45.199.183.0/24",
           "45.199.188.0/24",
+          "46.38.152.0/24",
           "49.238.236.0/22",
           "51.194.144.0/22",
           "51.241.128.0/23",
           "57.250.49.0/24",
+          "57.250.51.0/24",
           "61.8.33.0/24",
           "61.32.240.0/24",
           "61.245.108.0/24",
@@ -9709,7 +9968,9 @@
           "66.235.200.0/24",
           "66.242.60.0/23",
           "68.182.187.0/24",
+          "69.87.126.0/24",
           "69.90.210.0/24",
+          "72.11.158.0/24",
           "74.1.17.0/24",
           "77.73.113.0/24",
           "78.128.122.0/24",
@@ -9718,6 +9979,7 @@
           "82.22.16.0/24",
           "82.25.20.0/24",
           "82.26.156.0/24",
+          "82.39.253.0/24",
           "82.47.124.0/23",
           "82.139.216.0/23",
           "87.232.75.0/24",
@@ -9732,8 +9994,10 @@
           "92.44.1.0/24",
           "94.156.10.0/24",
           "94.177.26.0/24",
+          "94.194.72.0/21",
           "94.194.152.0/21",
           "94.194.208.0/21",
+          "94.194.228.0/24",
           "94.194.232.0/21",
           "96.43.100.0/23",
           "98.98.234.0/24",
@@ -9764,7 +10028,8 @@
           "104.22.31.0/24",
           "104.22.32.0/23",
           "104.22.42.0/23",
-          "104.22.44.0/22",
+          "104.22.44.0/23",
+          "104.22.46.0/24",
           "104.22.48.0/22",
           "104.22.52.0/24",
           "104.22.56.0/23",
@@ -9786,7 +10051,7 @@
           "104.22.112.0/21",
           "104.22.120.0/24",
           "104.22.123.0/24",
-          "104.22.126.0/23",
+          "104.22.124.0/22",
           "104.22.128.0/23",
           "104.22.131.0/24",
           "104.22.132.0/23",
@@ -9801,15 +10066,13 @@
           "104.22.162.0/24",
           "104.22.165.0/24",
           "104.22.167.0/24",
-          "104.22.168.0/24",
-          "104.22.170.0/23",
+          "104.22.168.0/22",
           "104.22.172.0/23",
           "104.22.174.0/24",
           "104.22.176.0/21",
-          "104.22.186.0/23",
+          "104.22.184.0/22",
           "104.22.190.0/23",
-          "104.22.192.0/24",
-          "104.22.195.0/24",
+          "104.22.192.0/22",
           "104.22.196.0/23",
           "104.22.198.0/24",
           "104.22.204.0/23",
@@ -9827,7 +10090,7 @@
           "104.23.201.0/24",
           "104.23.202.0/23",
           "104.23.204.0/24",
-          "104.23.206.0/23",
+          "104.23.207.0/24",
           "104.23.208.0/20",
           "104.23.224.0/19",
           "104.24.0.0/18",
@@ -9870,7 +10133,6 @@
           "108.162.248.0/23",
           "108.162.250.0/24",
           "109.234.211.0/24",
-          "122.152.164.0/24",
           "123.108.75.0/24",
           "123.253.173.0/24",
           "123.253.174.0/24",
@@ -9899,6 +10161,7 @@
           "141.101.109.0/24",
           "141.101.110.0/24",
           "141.101.112.0/20",
+          "142.228.46.0/24",
           "143.14.142.0/24",
           "143.14.224.0/24",
           "143.14.251.0/24",
@@ -9936,6 +10199,7 @@
           "156.70.60.0/24",
           "156.71.149.0/24",
           "156.224.73.0/24",
+          "156.234.250.0/24",
           "156.238.181.0/24",
           "156.243.83.0/24",
           "156.246.69.0/24",
@@ -9968,7 +10232,6 @@
           "162.158.76.0/22",
           "162.158.84.0/22",
           "162.158.88.0/21",
-          "162.158.97.0/24",
           "162.158.99.0/24",
           "162.158.100.0/22",
           "162.158.104.0/21",
@@ -10069,7 +10332,10 @@
           "172.64.203.0/24",
           "172.64.205.0/24",
           "172.64.206.0/23",
-          "172.64.208.0/20",
+          "172.64.208.0/23",
+          "172.64.210.0/24",
+          "172.64.212.0/22",
+          "172.64.216.0/21",
           "172.64.228.0/22",
           "172.64.232.0/22",
           "172.64.240.0/20",
@@ -10106,7 +10372,6 @@
           "172.68.72.0/23",
           "172.68.74.0/24",
           "172.68.76.0/23",
-          "172.68.79.0/24",
           "172.68.82.0/23",
           "172.68.84.0/22",
           "172.68.88.0/24",
@@ -10138,7 +10403,9 @@
           "172.68.164.0/22",
           "172.68.168.0/24",
           "172.68.172.0/22",
-          "172.68.176.0/21",
+          "172.68.177.0/24",
+          "172.68.178.0/23",
+          "172.68.180.0/22",
           "172.68.184.0/22",
           "172.68.188.0/24",
           "172.68.192.0/22",
@@ -10155,7 +10422,8 @@
           "172.68.228.0/23",
           "172.68.230.0/24",
           "172.68.234.0/23",
-          "172.68.236.0/22",
+          "172.68.236.0/23",
+          "172.68.238.0/24",
           "172.68.242.0/23",
           "172.68.244.0/22",
           "172.68.248.0/23",
@@ -10195,7 +10463,7 @@
           "172.69.96.0/22",
           "172.69.101.0/24",
           "172.69.102.0/23",
-          "172.69.104.0/23",
+          "172.69.104.0/24",
           "172.69.108.0/22",
           "172.69.112.0/23",
           "172.69.114.0/24",
@@ -10246,6 +10514,7 @@
           "172.69.246.0/23",
           "172.69.248.0/23",
           "172.69.251.0/24",
+          "172.69.253.0/24",
           "172.69.255.0/24",
           "172.70.32.0/20",
           "172.70.48.0/21",
@@ -10297,7 +10566,7 @@
           "172.71.3.0/24",
           "172.71.4.0/22",
           "172.71.8.0/22",
-          "172.71.14.0/23",
+          "172.71.15.0/24",
           "172.71.16.0/23",
           "172.71.20.0/22",
           "172.71.24.0/24",
@@ -10415,7 +10684,6 @@
           "198.41.214.0/23",
           "198.41.216.0/22",
           "198.41.222.0/23",
-          "198.41.224.0/24",
           "198.41.226.0/23",
           "198.41.228.0/22",
           "198.41.232.0/23",
@@ -10468,12 +10736,14 @@
           "211.188.26.0/23",
           "212.6.39.0/24",
           "212.104.128.0/24",
+          "212.114.54.0/24",
           "216.19.107.0/24",
           "216.74.106.0/24",
           "216.132.75.0/24",
           "216.163.179.0/24",
           "216.183.79.0/24",
           "216.224.121.0/24",
+          "217.25.13.0/24",
           "217.180.16.0/23",
           "218.33.92.0/22",
           "222.167.32.0/22",
