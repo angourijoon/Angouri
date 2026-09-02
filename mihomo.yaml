@@ -29,33 +29,43 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, alterId: 0, cipher: auto, tls: true, servername: "angouri.angouri.dpdns.org", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "angouri.angouri.dpdns.org"}}, udp: false}
-  - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, alterId: 0, cipher: auto, tls: true, servername: "angouri.angouri.dpdns.org", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "angouri.angouri.dpdns.org"}}, udp: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]", server: angouri.angouri.dpdns.org, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]", server: 91.193.58.10, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, alterId: 0, cipher: auto, tls: true, servername: "nova.angour.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "nova.angour.workers.dev"}}, udp: false}
+  - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, alterId: 0, cipher: auto, tls: true, servername: "nova.angour.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "nova.angour.workers.dev"}}, udp: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]", server: nova.angour.workers.dev, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]", server: 91.193.58.10, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]", server: 104.17.99.45, port: 2083, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]", server: 104.17.113.48, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]", server: 104.17.113.48, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.216.135:2087 [VLESS]", server: 104.17.216.135, port: 2087, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.161.197:443 [VLESS]", server: 104.17.161.197, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.161.197:443 [VLESS]", server: 104.17.161.197, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.223.136:2096 [VLESS]", server: 104.17.223.136, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.160:2096 [VLESS]", server: 108.162.198.160, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.160:2096 [VLESS]", server: 108.162.198.160, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.183.124:8443 [VLESS]", server: 104.17.183.124, port: 8443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.12.49:2096 [VLESS]", server: 104.26.12.49, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.12.49:2096 [VLESS]", server: 104.26.12.49, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.121.48:2083 [VLESS]", server: 104.17.121.48, port: 2083, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.87:2053 [VLESS]", server: 8.35.211.87, port: 2053, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.87:2053 [VLESS]", server: 8.35.211.87, port: 2053, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.64:2083 [VLESS]", server: 108.162.198.64, port: 2083, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.3.143:2087 [VLESS]", server: 172.66.3.143, port: 2087, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.3.143:2087 [VLESS]", server: 172.66.3.143, port: 2087, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.16.150.211:2096 [VLESS]", server: 104.16.150.211, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.126.209:2096 [VLESS]", server: 104.17.126.209, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.126.209:2096 [VLESS]", server: 104.17.126.209, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.24:443 [VLESS]", server: 188.164.248.24, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.25.1.180:443 [VLESS]", server: 104.25.1.180, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.25.1.180:443 [VLESS]", server: 104.25.1.180, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.16.145.185:443 [VLESS]", server: 104.16.145.185, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.40.67:443 [VLESS]", server: 104.27.40.67, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.40.67:443 [VLESS]", server: 104.27.40.67, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.1.107:443 [VLESS]", server: 104.17.1.107, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.184.160:443 [VLESS]", server: 172.67.184.160, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.184.160:443 [VLESS]", server: 172.67.184.160, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]", server: 104.16.229.62, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]", server: 104.16.217.217, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]", server: 104.16.217.217, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]", server: 104.16.81.157, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]", server: 162.159.45.221, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]", server: 162.159.45.221, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]", server: 162.159.45.221, port: 2087, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]", server: 162.159.45.221, port: 2053, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]", server: 162.159.45.221, port: 2083, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]", server: 162.159.45.221, port: 8443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]", server: 104.27.0.121, port: 2096, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]", server: 104.27.0.121, port: 443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]", server: 104.27.0.121, port: 2087, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: nova.angour.workers.dev, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]", server: 104.27.0.121, port: 8443, type: vless, uuid: 9eb0467d-f0c6-4f79-8b2d-df8c191a0a98, tls: true, skip-cert-verify: false, servername: angouri.angouri.dpdns.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /, grpc-user-agent: "Nova/1.0.0 (desktop; sing-box)"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -66,7 +76,7 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]
@@ -91,13 +101,23 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]
@@ -122,12 +142,22 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]
@@ -152,13 +182,23 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]
@@ -183,6 +223,16 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -208,7 +258,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]
@@ -233,6 +283,16 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -244,7 +304,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - سرویس رایگان نوا @irnova_proxy angouri.angouri.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy nova.angour.workers.dev:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 91.193.58.10:2096 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.99.45:2083 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.113.48:443 [VLESS]
@@ -269,6 +329,16 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.16.229.62:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.217.217:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.81.157:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.45.221:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.27.0.121:8443 [VLESS]
 rules:
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
@@ -8614,7 +8684,6 @@ rules:
   - IP-CIDR,5.226.179.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,5.226.181.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,14.102.228.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,23.141.168.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.145.136.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.145.152.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.145.232.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8644,7 +8713,6 @@ rules:
   - IP-CIDR,45.142.120.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.149.12.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.194.53.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,45.202.113.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.205.0.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,46.202.30.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,62.72.166.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8679,7 +8747,6 @@ rules:
   - IP-CIDR,89.116.250.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.117.112.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.207.18.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,91.124.127.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.192.106.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.193.58.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.199.81.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8737,19 +8804,13 @@ rules:
   - IP-CIDR,154.194.12.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.197.64.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.197.75.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,154.197.80.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,154.197.88.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,154.197.108.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,154.197.121.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.198.173.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.202.89.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.206.12.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.211.8.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.218.15.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,154.219.5.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,155.46.167.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,155.46.213.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,156.225.72.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,156.243.246.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,156.252.2.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,159.112.235.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8786,7 +8847,6 @@ rules:
   - IP-CIDR,185.159.247.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.162.228.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.170.166.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,185.176.24.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.176.26.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.193.28.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.207.92.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8807,8 +8867,6 @@ rules:
   - IP-CIDR,193.67.144.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,193.162.35.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,193.227.99.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,193.233.21.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,193.233.132.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.1.194.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.26.68.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.36.49.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8869,7 +8927,6 @@ rules:
   - IP-CIDR,209.222.114.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,212.239.86.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,213.182.199.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,213.219.247.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,213.241.198.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,216.120.131.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,216.120.180.0/23,☁️ CloudFlareCDN,no-resolve
@@ -8910,7 +8967,6 @@ rules:
   - IP-CIDR,31.185.108.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,37.153.170.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,38.96.28.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,42.61.47.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,43.228.232.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,43.230.112.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,43.230.114.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8925,15 +8981,18 @@ rules:
   - IP-CIDR,45.192.224.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.195.153.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.196.29.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,45.196.168.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.198.114.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.198.116.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.198.139.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.199.183.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.199.188.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,46.38.152.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,49.238.236.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,51.194.144.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,51.241.128.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,57.250.49.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,57.250.51.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,61.8.33.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,61.32.240.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,61.245.108.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8952,7 +9011,9 @@ rules:
   - IP-CIDR,66.235.200.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,66.242.60.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,68.182.187.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,69.87.126.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,69.90.210.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,72.11.158.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,74.1.17.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,77.73.113.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,78.128.122.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8961,6 +9022,7 @@ rules:
   - IP-CIDR,82.22.16.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.25.20.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.26.156.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,82.39.253.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.47.124.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.139.216.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,87.232.75.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8975,8 +9037,10 @@ rules:
   - IP-CIDR,92.44.1.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.156.10.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.177.26.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,94.194.72.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.194.152.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.194.208.0/21,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,94.194.228.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.194.232.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,96.43.100.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,98.98.234.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9007,7 +9071,8 @@ rules:
   - IP-CIDR,104.22.31.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.32.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.42.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.44.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.44.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.46.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.48.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.52.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.56.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9029,7 +9094,7 @@ rules:
   - IP-CIDR,104.22.112.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.120.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.123.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.126.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.124.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.128.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.131.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.132.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9044,15 +9109,13 @@ rules:
   - IP-CIDR,104.22.162.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.165.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.167.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.168.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.170.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.168.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.172.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.174.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.176.0/21,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.186.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.184.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.190.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.192.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.195.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.192.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.196.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.198.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.204.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9070,7 +9133,7 @@ rules:
   - IP-CIDR,104.23.201.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.202.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.204.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.23.206.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.23.207.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.208.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.224.0/19,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.24.0.0/18,☁️ CloudFlareCDN,no-resolve
@@ -9113,7 +9176,6 @@ rules:
   - IP-CIDR,108.162.248.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,108.162.250.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,109.234.211.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,122.152.164.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.108.75.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.253.173.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.253.174.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9142,6 +9204,7 @@ rules:
   - IP-CIDR,141.101.109.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,141.101.110.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,141.101.112.0/20,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,142.228.46.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,143.14.142.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,143.14.224.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,143.14.251.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9179,6 +9242,7 @@ rules:
   - IP-CIDR,156.70.60.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,156.71.149.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,156.224.73.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,156.234.250.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,156.238.181.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,156.243.83.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,156.246.69.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9211,7 +9275,6 @@ rules:
   - IP-CIDR,162.158.76.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.84.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.88.0/21,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,162.158.97.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.99.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.100.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.104.0/21,☁️ CloudFlareCDN,no-resolve
@@ -9312,7 +9375,10 @@ rules:
   - IP-CIDR,172.64.203.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.64.205.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.64.206.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.64.208.0/20,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.64.208.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.64.210.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.64.212.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.64.216.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.64.228.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.64.232.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.64.240.0/20,☁️ CloudFlareCDN,no-resolve
@@ -9349,7 +9415,6 @@ rules:
   - IP-CIDR,172.68.72.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.74.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.76.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.68.79.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.82.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.84.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.88.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9381,7 +9446,9 @@ rules:
   - IP-CIDR,172.68.164.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.168.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.172.0/22,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.68.176.0/21,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.68.177.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.68.178.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.68.180.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.184.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.188.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.192.0/22,☁️ CloudFlareCDN,no-resolve
@@ -9398,7 +9465,8 @@ rules:
   - IP-CIDR,172.68.228.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.230.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.234.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.68.236.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.68.236.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.68.238.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.242.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.244.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.248.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9438,7 +9506,7 @@ rules:
   - IP-CIDR,172.69.96.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.101.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.102.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.69.104.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.69.104.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.108.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.112.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.114.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9489,6 +9557,7 @@ rules:
   - IP-CIDR,172.69.246.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.248.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.251.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.69.253.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.255.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.70.32.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.70.48.0/21,☁️ CloudFlareCDN,no-resolve
@@ -9540,7 +9609,7 @@ rules:
   - IP-CIDR,172.71.3.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.4.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.8.0/22,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.71.14.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.71.15.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.16.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.20.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.24.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9658,7 +9727,6 @@ rules:
   - IP-CIDR,198.41.214.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.216.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.222.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,198.41.224.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.226.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.228.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.232.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9711,12 +9779,14 @@ rules:
   - IP-CIDR,211.188.26.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,212.6.39.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,212.104.128.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,212.114.54.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,216.19.107.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,216.74.106.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,216.132.75.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,216.163.179.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,216.183.79.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,216.224.121.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,217.25.13.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,217.180.16.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,218.33.92.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,222.167.32.0/22,☁️ CloudFlareCDN,no-resolve
